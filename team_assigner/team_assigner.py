@@ -23,7 +23,7 @@ class TeamAssigner:
         # Get Clustering model
         kmeans = self.get_clustering_model(top_half_image)
 
-        # Get the cluster labels forr each pixel
+        # Get the cluster labels for each pixel
         labels = kmeans.labels_
 
         # Reshape the labels to the image shape

@@ -183,7 +183,7 @@ class Tracker:
 
         return frame
 
-    def draw_annotations(self,video_frames, tracks,team_ball_control):
+    def draw_annotations(self,video_frames, tracks):
         output_video_frames= []
         for frame_num, frame in enumerate(video_frames):
             frame = frame.copy()
@@ -209,8 +209,8 @@ class Tracker:
                 frame = self.draw_traingle(frame, ball["bbox"],(0,255,0))
 
 
-            # Draw Team Ball Control
-            frame = self.draw_team_ball_control(frame, frame_num, team_ball_control)
+            # # Draw Team Ball Control
+            # frame = self.draw_team_ball_control(frame, frame_num, team_ball_control)
 
             output_video_frames.append(frame)
 

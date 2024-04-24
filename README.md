@@ -28,3 +28,16 @@ To run this project, you need to have the following requirements installed:
 - NumPy
 - Matplotlib
 - Pandas
+
+## How to use your own video
+- Make your video format 1980 x 1080 25fps or lower for fast result.
+- locate the file in input_videos
+- change filename in ENV.py
+- make sure to delete the stub files for the sample video.
+
+## Limits
+Does not perfectly work with unprofessional footage
+![Screenshot](output_videos/output_video_2_image.png)
+- Camera angle must be similar to the sample video's for the best result
+- Penalty mark is quite often detected as a ball
+- Estimate distance is not accurate
