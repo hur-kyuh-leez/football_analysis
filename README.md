@@ -39,5 +39,5 @@ To run this project, you need to have the following requirements installed:
 Does not perfectly work with unprofessional footage
 ![Screenshot](output_videos/output_video_2_image.png)
 - Camera angle must be similar to the sample video's for the best result
-- Penalty mark is quite often detected as a ball
+- YOLO quite often detects penalty mark as a ball
 - Estimate distance is not accurate
